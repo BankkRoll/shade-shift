@@ -1,0 +1,54 @@
+{
+  "name": "shade-shift",
+  "version": "0.0.2",
+  "description": "Advanced theme transition library for Next.js applications",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run format && npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "theme",
+    "transition",
+    "animation"
+  ],
+  "author": "BankkRoll",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BankkRoll/shade-shift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BankkRoll/shade-shift/issues"
+  },
+  "homepage": "https://github.com/BankkRoll/shade-shift#readme",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "next": "^12.0.0 || ^13.0.0",
+    "next-themes": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
